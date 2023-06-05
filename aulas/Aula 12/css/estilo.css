@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+}
+
+.tabela{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background-color: blueviolet;
+    width: 50%
+}
+
+.tabela table{
+    width:100%;
+    text-align: center;
+    background-color: violet;
+    border-collapse:collapse;
+}
+
+.tabela table td, .tabela table th{
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+.tabela table th{
+    background-color:darkorchid;
+}

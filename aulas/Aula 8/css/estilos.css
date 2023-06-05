@@ -1,0 +1,47 @@
+body{
+    color:aqua;
+    background: -moz-linear-gradient(to left,darkblue, darkgreen, white,gray)
+}
+
+
+h2{
+    color: red;
+}
+
+
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1{
+    color:darkred
+
+
+}
+
+
+p a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+img {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

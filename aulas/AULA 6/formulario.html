@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+<h1>Formulário</h1>
+
+<form action="pagina 2 .html" method="get">
+
+<fieldset>
+
+    <legend> Faça uma sugestão </legend> 
+
+    <p>
+        <label for="idnome"> Nome: </label>
+        <input type="text" id="idnome" size="40"/>
+    </p>
+
+    <p>
+        <label for="idmail"> Email: </label>
+        <input type="text" id="idmail" size="40"/>
+    </p>
+
+    <p>
+        <label for="idsenha"> Senha: </label>
+        <input type="password" id="idsenha"> 
+    </p>
+
+    <p>
+        <label for="idsenha"> Confirme sua senha: </label>
+        <input type="password" id="idsenha"> 
+    </p>
+
+
+    <p>
+        <label for="idfone"> Telefone: </label>
+        <input type="text" id="idfone" size="15" maxlength="15"/>
+    </p>
+
+    <p>
+        <label for="idend"> Endereço: </label>
+        <input type="text" id="idend" size="60"/>
+    </p>
+
+    <p>
+        <label for="iddata"> Data de nascimento </label>
+        <input type="date" id="iddata"/>
+    </p>
+
+    <p>
+        <label for="idcolor"> Cor: </label>
+        <input type="color" id="idcolor"/>
+    </p>
+
+    <p>
+        <label for="idserie"> serie: </label>
+        <select name="serie" id="idserie">
+            <option>Selecione</option>
+
+            <optgroup label="ensino-fundamental">
+                <option value="6ano"> 6° ano</option>
+                <option value="7ano"> 7° ano</option>
+                <option value="8ano"> 8° ano</option>
+                <option value="9ano"> 9° ano</option>
+            </optgroup>
+
+            <optgroup label="ensino-medio">
+                <option value="1ano"> 1° ano</option>
+                <option value="2ano"> 2° ano</option>
+                <option value="3ano"> 3° ano</option>
+            </optgroup>
+
+            <optgroup label="ensino-medio tecnico">
+                <option value="1ano"> 1° Des</option>
+                <option value="2ano"> 2° Des</option>
+                <option value="3ano"> 3° Des</option>
+
+                <option value="1ano"> 1° Fdi</option>
+                <option value="2ano"> 2° Fdi</option>
+                <option value="3ano"> 3° Fdi</option>
+            </optgroup>
+
+
+        </select>
+    </p>
+
+    <p> 
+        <input type="radio" name="genero" value="masc" id="idmasc"/>
+        <label for="idmasc">Masculino</label>
+
+        <input type="radio" name="genero" value="femi" id="idfemi"/>
+        <label for="idfemi">Feminino</label>
+
+        <input type="radio" name="genero" value="our" id="idour"/>
+        <input for="idour">Outro</label>
+    </p>
+
+    <spam> Assuunto: </spam> <br>
+
+    <table>
+        <tr>
+            <td>
+                <input type="checkbox" id="idsala" name="assunto" value="sala"/>
+                <label for="idsala">Sala de Aula</label>
+            </td>
+            <td>
+                <input type="checkbox" id="idlab" name="assunto" value="lab"/>
+                <label for="idlab"> Laboratorio </label>
+            </td>
+            <td>
+                <input type="checkbox" id="idcantina" name="assunto" value="cantina"/>
+                <label for="idcantina"> Cantina </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="checkbox" id="idbanheiro" name="assunto" value="banheirp"/>
+                <label for="idbanheiro"> Banheiro </label>
+            </td>
+            <td>
+                <input type="checkbox" id="idqua" name="assunto" value="qua"/>
+                <label for="idqua"> Quadra </label>
+            </td>
+            <td>
+                <input type="checkbox" id="idcam" name="assunto" value="cam"/>
+                <label for="idcam"> Campo </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="idbos" name="assunto" value="bos"/>
+                <label for="idbos"> Bosque </label> 
+            </td>
+            <td>
+                <input type="checkbox" id="idbli" name="assunto" value="bli"/>
+                <label for="idbli"> Biblioteca </label>
+            </td>
+            <td>
+                <input type="checkbox" id="idsec" name="assunto" value="sec"/>
+                <label for="idsec"> Secretaria </label> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="idPa" name="assunto" value="Pa"/>
+                <label for="idPa"> Patio </label>
+            </td>
+        </tr>
+
+        <p>
+            <label for="idsugestao">Sugestão </label> <br>
+            <textarea id="idsugestao" cols="60" rows="5"></textarea> 
+        </p>
+
+        <p>
+                <input type="submit" id="idenviar" value="enviar"/>
+                <input type="reset" id="idlimpar" value="limpar"/>
+        </p>
+
+    </table>
+
+</fieldset>
+
+</form>
+
+</body>
+</html>

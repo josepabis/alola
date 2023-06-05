@@ -1,0 +1,27 @@
+.home{
+background-color: darkblue;
+}
+.home img{
+    width: 100%;
+}
+.home ul li{
+    background-color:#E41F1F;
+    display:flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding:1,5%;
+    align-items: center;
+}
+.home ul li a{
+    text-decoration: none;
+    color:black
+}
+.home ul li a:hover{
+    color:blue
+}
+body{
+    background: -moz-linear-gradient(to right, gray,whitesmoke,gray,gray,gray,whitesmoke,gray,gray,gray,gray,gray);
+}
+.conteudo{
+    background-color:rgba(148, 148, 148, 0.699);
+}

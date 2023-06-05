@@ -1,0 +1,85 @@
+body{
+    background-color: gray;
+    position: relative;
+   
+}
+
+.cabeça{
+    text-align: center;
+    background:-moz-linear-gradient(to left, rgb(0, 64, 201),rgb(0, 140, 255)) ;
+}
+
+.cabeça header{
+    text-align: center;
+    position: relative;
+    
+}
+
+.home{
+    background: -moz-repeating-radial-gradient(to left, rgb(4, 60, 180),rgb(0, 140, 255));
+
+}
+
+.pedepranerfarnoob {
+
+}
+ 
+
+.taborda {
+    background-color: rgb(224, 224, 224);
+    position: relative;
+    align-items: center;
+    top: 50px;
+    left: 30%;
+    width: 40%;
+}
+
+.taborda table{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(102, 102, 102);
+}
+
+.taborda table th{
+    background: -moz-linear-gradient(to left, rgb(0, 64, 201),rgb(0, 140, 255));
+}
+
+.home header img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    left:0;
+    background:-moz-linear-gradient(rgb(4, 60, 180),rgb(0, 140, 255));
+    height: 150px;
+}
+
+.titulo{
+    position:absolute;
+    left:20%;
+    top:10%;
+    width:10%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo span{
+    font-family: serif;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+}
+
+
+footer{
+    background-color: rgb(0, 0, 160);
+    padding:20px;
+    border-top: 1px solid white;
+    margin-top:20px;
+    text-align: center;
+    color: rgb(130, 130, 255);
+}
